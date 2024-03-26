@@ -92,7 +92,7 @@ python scripts/conf/evaluate.py --data_dir data --log_dir logs --run_name ${RUN_
     --model_name ${MODEL_NAME} --method sbalign --inference_steps 10 --n_samples 10
 ```
 
-For the model used in the paper, the configuration file used can be found under `reproducibility/conf/train.yml`
+For the model used in the paper, the configuration file used can be found under `reproducibility/conf/config_train.yml`
 The corresponding trained model can be found under `reproducibility/conf/model.pt`. To evaluate this model, run:
 
 ```
